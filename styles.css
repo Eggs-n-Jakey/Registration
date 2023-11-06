@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(196, 196, 169);
+    background-image: url(study.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255,238,204, .7);
+    width: 70%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    font-size: 3em;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255,238,204, .7);
+    width: 70%;
+    border-radius: 15px;
+    margin-top: 5%;
+    font-size: 1.5em;
+
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    background-color: rgba(255,238,204, .7);
+    padding: 40px;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    height: 80%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"]{
+    position: absolute;
+    right: 17%;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    margin: auto;
+    left: 5%;
+    width: 40%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Added margin to separate elements vertically */
+}
+
+.dropSelect {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ldrop {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.sdrop,
+#day {
+    width: 100%;
+    
+}
+
+label[for="comments"] {
+    margin-bottom: 55px;
+    margin-right: 185px;
+}
+
+label[for="time"]{
+    margin-right: 178px;
+}
+
+label[for="classes"]{
+    margin-right: 150px;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 20%;
+    border-radius: 3px;
+}
+
+
+
+
+
+

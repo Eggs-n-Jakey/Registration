@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Advising Appointment Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h2>Advising Appointment Registration</h2>
+
+    <div class="container">
+        <form>
+            <div class="dropSelect">
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" required placeholder="First Name">
+            </div>
+
+            <div class="dropSelect">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" required placeholder="Last Name">
+            </div>
+
+            <div class="dropSelect">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Email">
+            </div>
+
+            <div class="dropSelect">
+                <label for="teacher" class="ldrop">Teacher:</label>
+                <select id="teacher" name="teacher" class="sdrop">
+                    <option value="teacher1">Tiffany Ford</option>
+                    <option value="teacher2">Kirsten Markley</option>
+                    <option value="teacher3">Jackson Lewis</option>
+                </select>
+            </div>
+
+            <div class="dropSelect">
+                <label for="month" class="ldrop">Month:</label>
+                <select id="month" name="month" class="sdrop">
+                    <option value="month1">January</option>
+                    <option value="month2">February</option>
+                    <option value="month3">March</option>
+                    <option value="month4">April</option>
+                    <option value="month5">May</option>
+                    <option value="month6">June</option>
+                    <option value="month7">July</option>
+                    <option value="month8">August</option>
+                    <option value="month9">September</option>
+                    <option value="month10">October</option>
+                    <option value="month11">November</option>
+                    <option value="month12">December</option>
+                </select>
+            </div>
+
+            <div class="dropSelect">
+                <label for="day" class="ldrop">Day:</label>
+                <input type="number" id="day" name="day" min="1" max="31" step="1" placeholder="Select a day"
+                    class="sdrop">
+            </div>
+            <div class="dropSelect">
+                <label for="time">Select Time:</label>
+                <input type="radio" name="time" value="am" required> AM
+                <input type="radio" name="time" value="pm" required> PM
+            </div>
+
+            <div class="dropSelect">
+                <label for="classes">Select Classes:</label>
+                <input type="checkbox" name="class" value="Class1"> Biology
+                <input type="checkbox" name="class" value="Class2"> Chemistry
+                <input type="checkbox" name="class" value="Class3"> Programming 1
+                <input type="checkbox" name="class" value="Class4"> Algebra 2
+                <input type="checkbox" name="class" value="Class5"> Economics
+            </div>
+
+            <div class="dropSelect">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+            </div>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>Jacob Hartel &copy;</p>
+    </footer>
+
+</body>
+
+</html>
