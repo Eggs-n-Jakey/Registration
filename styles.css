@@ -83,11 +83,11 @@ label[for="comments"] {
     margin-right: 185px;
 }
 
-label[for="time"]{
+label[id="time"]{
     margin-right: 178px;
 }
 
-label[for="classes"]{
+label[id="classes"]{
     margin-right: 150px;
 }
 

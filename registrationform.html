@@ -4,14 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Advising Appointment Registration</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
 </head>
-
 <body>
     <h2>Advising Appointment Registration</h2>
 
     <div class="container">
-        <form>
+        <form action="thankyou.html" method="get">
             <div class="dropSelect">
                 <label for="fname">First Name:</label>
                 <input type="text" name="fname" id="fname" required placeholder="First Name">
@@ -30,9 +29,9 @@
             <div class="dropSelect">
                 <label for="teacher" class="ldrop">Teacher:</label>
                 <select id="teacher" name="teacher" class="sdrop">
-                    <option value="teacher1">Tiffany Ford</option>
-                    <option value="teacher2">Kirsten Markley</option>
-                    <option value="teacher3">Jackson Lewis</option>
+                    <option value="TFord">Tiffany Ford</option>
+                    <option value="KMarkley">Kirsten Markley</option>
+                    <option value="JLewis">Jackson Lewis</option>
                 </select>
             </div>
 
@@ -60,13 +59,13 @@
                     class="sdrop">
             </div>
             <div class="dropSelect">
-                <label for="time">Select Time:</label>
+                <label id="time">Select Time:</label>
                 <input type="radio" name="time" value="am" required> AM
                 <input type="radio" name="time" value="pm" required> PM
             </div>
 
             <div class="dropSelect">
-                <label for="classes">Select Classes:</label>
+                <label id="classes">Select Classes:</label>
                 <input type="checkbox" name="class" value="Class1"> Biology
                 <input type="checkbox" name="class" value="Class2"> Chemistry
                 <input type="checkbox" name="class" value="Class3"> Programming 1
